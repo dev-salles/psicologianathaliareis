@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nathália Reis | Psicologia Clínica</title>
+    <title>Nathalia Reis | Psicologia Clínica</title>
     <link rel="stylesheet" href="/src/style.css">
     <link rel="shortcut icon" href="/src/images/logo-nath.ico" type="image/x-icon">
 </head>
@@ -14,7 +14,10 @@
         <nav class="nav-container">
             <div class="logo">
                 <img src="src/images/logo-nath.png" alt="logotipo da Psicóloga" class="logo-image">
-                <a href="#">Nathália Reis</a>
+                <div class="logo-text">
+                    <a href="#">Nathalia Reis</a>
+                    <span class="logo-crp">Psicóloga | CRP: 01/30814</span>
+                </div>
             </div>
 
             <ul class="nav-menu">
@@ -46,11 +49,11 @@
         <section id="sobre" class="sobre-section">
             <div class="container sobre-grid">
                 <div class="sobre-image">
-                    <img src="src/images/Nath2.png" alt="Nathália Reis no Consultório">
+                    <img src="src/images/Nath2.png" alt="Nathalia Reis no Consultório">
                 </div>
                 <div class="sobre-text">
                     <h2>Sobre Mim</h2>
-                    <p>Olá, eu sou Nathália Reis, psicóloga clínica especializada em ajudar pessoas a retomarem o
+                    <p>Olá, eu sou Nathalia Reis, psicóloga clínica especializada em ajudar pessoas a retomarem o
                         controle sobre suas vidas e saúde emocional.</p>
                     <p>Com foco em <strong>Prática Baseada em Evidências (PBE)</strong>, atuo na intersecção entre a
                         ciência comportamental e a prática clínica, aplicando protocolos baseados em evidências para o
@@ -95,27 +98,27 @@
             <div class="faq-container">
                 <h2 class="faq-title">Perguntas Frequentes</h2>
 
-                <details class="faq-item">
-                    <summary>
+                <article class="faq-item">
+                    <div class="faq-question">
                         Como funciona o atendimento personalizado?
                         <span class="icon">+</span>
-                    </summary>
+                    </div class="faq-question">
                     <div class="faq-content">
                         <p>O atendimento é totalmente estruturado com base nas suas necessidades específicas, histórico
                             emocional e objetivos de saúde.</p>
                     </div>
-                </details>
+                </article>
 
-                <details class="faq-item">
-                    <summary>
+                <article class="faq-item">
+                    <div class="faq-question">
                         Como é feita a análise comportamental?
                         <span class="icon">+</span>
-                    </summary>
+                    </div class="faq-question">
                     <div class="faq-content">
                         <p>Utilizamos protocolos da TCC para identificar padrões de pensamento que influenciam
                             comportamentos alimentares e emocionais.</p>
                     </div>
-                </details>
+                </article>
 
             </div>
         </section>
@@ -146,12 +149,13 @@
 
                 <div class="contato-acao">
                     <div class="agendar-card">
-                        <h3>Agendamento via WhatsApp</h3>
+                        <h2>Agendamento via WhatsApp</h2>
                         <p>Clique no botão abaixo para falar diretamente comigo e consultar horários disponíveis.</p>
-                        <a href="https://api.whatsapp.com/send/?phone=5561992856864&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+sess%C3%A3o%21&type=phone_number&app_absent=0" target="_blank" class="btn-whatsapp">
+                        <a href="https://api.whatsapp.com/send/?phone=5561992856864&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+sess%C3%A3o%21&type=phone_number&app_absent=0"
+                            target="_blank" class="btn-whatsapp">
                             Agendar pelo WhatsApp
                         </a>
-                        <span class="crp-footer">Psicóloga Nathália Reis | CRP: 01/30814</span>
+                        <span class="crp-footer">Psicóloga Nathalia Reis | CRP: 01/30814</span>
                     </div>
                 </div>
             </div>
@@ -174,8 +178,11 @@
         <div class="container footer-grid">
             <div class="footer-brand">
                 <div class="footer-nath">
-                    <img src="src/images/logo-nath.png" alt="Logo Nathália Reis" class="footer-logo">
-                    <h3>Nathália Reis</p>
+                    <img src="src/images/logo-nath.png" alt="Logo Nathalia Reis" class="footer-logo">
+                    <div class="footer-titles">
+                        <h3>Nathalia Reis</h3>
+                        <span class="footer-crp-sub">Psicóloga | CRP: 01/30814</span>
+                    </div>
                 </div>
                 <p>Psicologia Clínica baseada em evidências.</p>
             </div>
@@ -192,21 +199,23 @@
 
             <div class="footer-crp">
                 <h4>Registro Profissional</h4>
-                <p>Nathália Reis</p>
-                <p>Psicóloga | CRP: 01/30814</p>
+                <p>Nathalia Reis</p>
+                <p>CRP: 01/30814</p>
             </div>
         </div>
 
         <div class="footer-bottom">
             <div class="container bottom-flex">
-                <p>&copy; 2026 Nathália Reis. Todos os direitos reservados.</p>
-                <p class="dev-credit">Desenvolvido por <span><a href="https://www.instagram.com/dev_salles"
-                            target="_blank" class="dev-link">dev-salles</a></span></p>
+                <p>&copy; <span class="copyright-year"></span> Nathalia Reis. Todos os direitos reservados.</p>
+                <p class="dev-credit">Desenvolvido por <a href="https://www.instagram.com/koorvostudio/" target="_blank"
+                        class="dev-link"><img src="src/images/Logo Koorvo Sem Fundo Preto.png" alt=""
+                            class="logo_koorvo"> </a></p>
             </div>
         </div>
     </footer>
 
-    <a href="https://api.whatsapp.com/send/?phone=5561992856864&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+sess%C3%A3o%21&type=phone_number&app_absent=0" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <a href="https://api.whatsapp.com/send/?phone=5561992856864&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+sess%C3%A3o%21&type=phone_number&app_absent=0"
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
         <span class="tooltip-whatsapp">Agende sua consulta</span>
     </a>
